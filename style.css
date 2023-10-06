@@ -1,5 +1,4 @@
 body {
-    width: auto;
     margin: 0 auto;
     font-family: sans-serif;
     padding-left: 64px;
@@ -30,11 +29,13 @@ a:link {
     color: white;
 }
 
-h2, h1 {
+h2, 
+h1 {
     font-size: 16px;
     font-weight: 200;
     color: white;
 }
+
 b {
     font-weight: 100;
 }
@@ -55,4 +56,20 @@ footer {
 hr {
     opacity: 0.0;
     height: 20px;
+}
+
+.job-description {
+    color: rgb(131, 131, 131);
+}
+
+#date {
+    color: aqua;
+}
+
+* {
+    width: 580px
+}
+
+#images {
+    height: 72px; width: 72px;
 }
